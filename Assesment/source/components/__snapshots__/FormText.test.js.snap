@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should have text as children 1`] = `
+<Text
+  style={Object {}}
+  text=""
+>
+  Uni Test
+</Text>
+`;

@@ -48,13 +48,14 @@ const Welcome = () => {
             {renderDeviceCheck()}
             <View style={styles.form}>
                 <FormTextInput
+                    testID="userName"
                     containerStyle={styles.textContainer}
                     placeholder="Enter User Name"
                     autoCapitalize='none'
                     value={userName}
                     onChangeText={(value) => setUserName(value)}
                 />
-                <FormButton title={'Enter'} onPress={() => onTapEnter()} />
+                <FormButton testID="button" title={'Enter'} onPress={() => onTapEnter()} />
             </View>
         </View>
     )

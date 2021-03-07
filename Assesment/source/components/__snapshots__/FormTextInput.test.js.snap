@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test placeholder and should call onChangeText when user is typing 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": "5%",
+        "width": "100%",
+      },
+      Object {},
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "unitesting",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    placeholder="Enter Username"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#c8c8c8",
+          "borderRadius": 13.5,
+          "borderWidth": 1,
+          "height": 80,
+          "paddingHorizontal": 13.5,
+          "width": "100%",
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
