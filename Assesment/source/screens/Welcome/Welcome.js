@@ -37,7 +37,7 @@ const Welcome = () => {
         return (
             <View style={styles.contentContainer}>
                 <FormText textStyle={styles.content}>Is App Running on Simulator?</FormText>
-                <FormText textStyle={[styles.content, { color:'green' }]}>{isSimulator()}</FormText>
+                <FormText textStyle={styles.content}>{isSimulator()}</FormText>
             </View>
         )
     }
