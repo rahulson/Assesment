@@ -1,0 +1,1 @@
+export const STORE_USER_NAME = 'STORE_USER_NAME'
